@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">MyQuizzApp</string>
+    <string name="nameField">Please Enter you name Here</string>
+    <string name="nameField_hint">Please Enter your name here</string>
+    <string name="question_1">QUESTION 1</string>
+    <string name="question_2">QUESTION 2</string>
+    <string name="question_3">QUESTION 3</string>
+    <string name="question_3hint">Please the alphabet next to your answer</string>
+    <string name="question_4">QUESTION 4</string>
+    <string name="q1_question">How may are there in the world?</string>
+    <string name="q2_question">who made it rain</string>
+    <string name="q3_question">how many movies are in the mcu so far?</string>
+    <string name="q4_question">who made it rain</string>
+    <string name="q1_option1">MARGARINE</string>
+    <string name="q1_option2">CHOCOLATE</string>
+    <string name="q1_option3">MARGARINE</string>
+    <string name="q1_option4">CHOCOLATE</string>
+    <string name="q2_option1">MARGARINE</string>
+    <string name="q2_option2">CHOCOLATE</string>
+    <string name="q3_option1">A. MARGARINE</string>
+    <string name="q3_option2">B. CHOCOLATE</string>
+    <string name="q3_option3">C. MARGARINE</string>
+    <string name="q3_option4">D. CHOCOLATE</string>
+    <string name="q4_option1">C. MARGARINE</string>
+    <string name="q4_option2">D. CHOCOLATE</string>
+    <string name="submitButton">SUBMIT</string>
+
 </resources>

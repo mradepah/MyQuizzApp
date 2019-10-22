@@ -16,9 +16,8 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="5dp"
-            android:layout_marginStart="8dp"
-            android:textAllCaps="true"
             android:text="@string/nameField"
+            android:textAllCaps="true"
             android:textSize="18sp" />
 
         <EditText
@@ -40,9 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="5dp"
-            android:layout_marginStart="8dp"
-            android:textAllCaps="true"
             android:text="@string/q1_question"
+            android:textAllCaps="true"
             android:textSize="18sp" />
 
         <LinearLayout
@@ -57,8 +55,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="36dp"
                 android:paddingLeft="24dp"
-                android:layout_marginEnd="36dp"
-                android:paddingStart="24dp"
                 android:text="@string/q1_option1"
                 android:textSize="16sp" />
 
@@ -68,8 +64,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:paddingLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:paddingStart="16dp"
                 android:text="@string/q1_option2"
                 android:textSize="16sp" />
 
@@ -87,8 +81,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="36dp"
                 android:paddingLeft="24dp"
-                android:layout_marginEnd="36dp"
-                android:paddingStart="24dp"
                 android:text="@string/q1_option3"
                 android:textSize="16sp" />
 
@@ -98,8 +90,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:paddingLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:paddingStart="16dp"
                 android:text="@string/q1_option4"
                 android:textSize="16sp" />
 
@@ -115,9 +105,8 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:layout_marginStart="8dp"
-            android:textAllCaps="true"
             android:text="@string/q2_question"
+            android:textAllCaps="true"
             android:textSize="18sp" />
 
         <RadioGroup
@@ -131,8 +120,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:paddingLeft="18sp"
-                android:layout_marginStart="8dp"
-                android:paddingStart="18sp"
                 android:text="@string/q2_option1" />
 
             <RadioButton
@@ -141,8 +128,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:paddingLeft="18dp"
-                android:layout_marginStart="8dp"
-                android:paddingStart="18dp"
                 android:text="@string/q2_option2" />
         </RadioGroup>
 
@@ -156,9 +141,8 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:layout_marginStart="8dp"
-            android:textAllCaps="true"
             android:text="@string/q3_question"
+            android:textAllCaps="true"
             android:textSize="18sp" />
 
         <EditText
