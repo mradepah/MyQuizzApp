@@ -1,18 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="5dp"
+            android:text="Please Enter you name Here"
+            android:textAllCaps="true"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="Please Enter your answer here"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="QUESTION 1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:text="How may are there in the world?"
+            android:textAllCaps="true"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36dp"
+                android:paddingLeft="24dp"
+                android:text="MARGARINE"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:paddingLeft="16dp"
+                android:text="CHOCOLATE"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36dp"
+                android:paddingLeft="24dp"
+                android:text="MARGARINE"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:paddingLeft="16dp"
+                android:text="CHOCOLATE"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="QUESTION 2"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="who made it rain"
+            android:textAllCaps="true"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_pirates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="18sp"
+                android:text="JESUS" />
+
+            <RadioButton
+                android:id="@+id/radio_ninjas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="18dp"
+                android:text="GOD" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="QUESTIONT 3 "
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="how many movies are in the mcu so far?"
+            android:textAllCaps="true"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="Please the alphabet next to your answer"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36dp"
+                android:paddingLeft="8dp"
+                android:text=" A. margirine"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="24dp"
+                android:text="B. chocolate"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36dp"
+                android:paddingLeft="8dp"
+                android:text=" C. margirine"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="24dp"
+                android:text="D. chocolate"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="QUESTION 4"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="who made it rain"
+            android:textAllCaps="true"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="18dp"
+                android:text="NARUTO" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="18dp"
+                android:text="ITACHI" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="18dp"
+            android:paddingLeft="18dp"
+            android:text="SUBMIT"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
