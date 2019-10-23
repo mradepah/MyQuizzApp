@@ -27,7 +27,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:autofillHints="@android:string/autofill"
             android:hint="@string/nameField_hint"
             android:inputType="text" />
 
@@ -269,6 +268,7 @@
             android:layout_marginBottom="18dp"
             android:paddingLeft="18dp"
             android:text="@string/submitButton"
+            android:onClick="verifyAnswer"
             android:textSize="18sp" />
 
 
