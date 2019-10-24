@@ -3,11 +3,11 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- App branding color for the app bar -->
-        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimary">@color/colorGreen</item>
         <!-- Darker variant for the status bar and contextual app bars -->
         <item name="colorPrimaryDark">#00796B</item>
         <!-- Theme UI controls like checkboxes and text fields -->
-        <item name="colorAccent">#536DFE</item>
+        <item name="colorAccent">@color/colorGreen</item>
     </style>
 
     <!-- Style for header text in the order form -->
@@ -20,7 +20,6 @@
     </style>
 
     <style name="questionStyle">
-
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">8dp</item>
