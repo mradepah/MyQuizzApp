@@ -120,6 +120,7 @@
             android:textSize="18sp" />
 
         <RadioGroup
+            android:id="@+id/radioGroupQuestion2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -240,6 +241,7 @@
             android:textSize="18sp" />
 
         <RadioGroup
+            android:id="@+id/radioGroupQuestion4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
